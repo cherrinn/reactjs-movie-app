@@ -1,4 +1,5 @@
-### movie-app screenshot
+# Movie app
+## screenshot
 ![home](https://user-images.githubusercontent.com/85073127/120877479-ed544080-c5e0-11eb-82f6-490cff7c3fd7.png)
 
 ![sample-movie](https://user-images.githubusercontent.com/85073127/120877506-1543a400-c5e1-11eb-84be-109efeefb06f.png)
