@@ -21,22 +21,21 @@
 
 
 ## Installing
-Clone this project to your local
+You must have Node.js installed to use it
+
+first, you need to clone this repositories
 Using HTTPS:
 ```
 https://github.com/cherrinn/reactjs-movie-app.git
 ```
 Other Options: SSH, GitHub CLI
 
-## How to use:
-You must have Node.js installed to use it
-
-first, you need to clone this repositories then inside root folder you can type this command
+Second, inside root folder you can type this command
 ```
 npm install
 ```
 
-Second, In the project directory, you can run:
+Finally, In the project directory, you can run:
 ```
 npm start
 ```
