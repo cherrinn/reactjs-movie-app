@@ -17,10 +17,10 @@
 You must have Node.js installed to use it
 
 first, you need to clone this repositories then inside root folder you can type this command
-### `npm install` or `yarn install`
+#### `npm install` or `yarn install`
 
 Second, In the project directory, you can run:
-### `npm start` or  `yarn start`
+#### `npm start` or  `yarn start`
 
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
