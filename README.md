@@ -13,14 +13,20 @@
 
 ![ezgif-3-e96335470d2e](https://user-images.githubusercontent.com/85073127/120877386-699a5400-c5e0-11eb-8504-6ee9467751d4.gif)
 
-## How to use
+## Installing
+Clone this project to your local
+Using HTTPS:
+#### `https://github.com/cherrinn/reactjs-movie-app.git`
+Other Options: SSH, GitHub CLI
+
+## How to use:
 You must have Node.js installed to use it
 
 first, you need to clone this repositories then inside root folder you can type this command
-#### `npm install` or `yarn install`
+#### `npm install`
 
 Second, In the project directory, you can run:
-#### `npm start` or  `yarn start`
+#### `npm start`
 
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
