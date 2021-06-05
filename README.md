@@ -23,10 +23,10 @@ Other Options: SSH, GitHub CLI
 You must have Node.js installed to use it
 
 first, you need to clone this repositories then inside root folder you can type this command
-#### `npm install`
+#### ```npm install```
 
 Second, In the project directory, you can run:
-#### `npm start`
+```npm start```
 
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
