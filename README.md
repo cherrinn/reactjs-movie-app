@@ -72,4 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### sample images
 
 
-<a href="//imgur.com/a/cr0U1YP"></a>
+![ezgif-3-e96335470d2e](https://user-images.githubusercontent.com/85073127/120877386-699a5400-c5e0-11eb-8504-6ee9467751d4.gif)
