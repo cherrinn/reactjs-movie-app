@@ -72,4 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### sample images
 
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/cr0U1YP" data-context="false" ><a href="//imgur.com/a/cr0U1YP"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<a href="//imgur.com/a/cr0U1YP"></a>
