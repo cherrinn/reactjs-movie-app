@@ -1,0 +1,20 @@
+.all-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  column-gap: 2.5rem;
+  margin-top: 20px;
+  align-items: center;
+}
+.close-icon {
+  color: white;
+}
+
+.list-container h1 {
+  color: white;
+}
+.list-container p {
+  color: #acacac;
+  font-size: 30px;
+}

@@ -1,0 +1,94 @@
+.show {
+  position: relative;
+  margin-bottom: 25px;
+}
+.show img,
+.show-img.zoom {
+  max-width: 100%;
+  height: 200px;
+}
+.show-img.zoom:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.show .title {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 150px;
+  word-wrap: break-word;
+}
+.show .release {
+  color: #a0a0a0;
+  font-size: 12px;
+  line-height: 32px;
+}
+.show h6 {
+  color: #ffffff;
+  line-height: 40px;
+}
+
+.rating {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  position: absolute;
+  bottom: 80px;
+  right: 20px;
+  background-color: #000000;
+  border-radius: 50px;
+  padding: 15px 13px;
+}
+.rating:before {
+  position: absolute;
+  content: "";
+  top: 3px;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  border-radius: 50%;
+  border: solid 3px transparent;
+  border-top-color: #ff0000;
+  border-right-color: #ff0000;
+  border-bottom-color: #ffffff;
+  border-left-color: #ffffff;
+}
+.rating:after {
+  position: absolute;
+  content: "%";
+  top: 6px;
+  right: 6px;
+  font-size: 10px;
+}
+.add-btn-container,
+.remove-btn-container {
+  position: absolute;
+}
+.add-btn-container {
+  top: -7px;
+  right: 10px;
+}
+.add-btn-container button {
+  padding: 2px 3px;
+  border-radius: 50%;
+  border: none;
+}
+.remove-btn-container {
+  top: -10px;
+  right: 10px;
+}
+.remove-icon {
+  color: white;
+  font-size: 20px;
+}
+.remove-icon:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.add-btn-container button:hover {
+  cursor: pointer;
+  color: red;
+  padding: 2px 3px;
+}

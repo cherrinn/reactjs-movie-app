@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Scada', sans-serif; */
+  font-family: "Maven Pro", sans-serif;
+  
+}
+
+body{
+  background-color: #131214;
+  
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 70px;
+  /* max-width: 100%; */
+}
