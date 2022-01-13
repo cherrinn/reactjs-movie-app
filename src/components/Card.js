@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../services/GlobalState";
-import { FiPlus, FiXCircle } from "react-icons/fi";
+import { FiXCircle } from "react-icons/fi";
 import { IoMdAddCircle } from "react-icons/io";
 import "../styles/Card.css";
 
