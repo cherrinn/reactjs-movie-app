@@ -3,9 +3,9 @@
   flex-direction: row;
   justify-content: space-between;
   position: relative;
-  z-index: 999;
   padding-top: 30px;
   /* overflow: hidden; */
+  z-index: 9999;
   column-gap: 2rem;
 }
 .nav-left,
@@ -13,13 +13,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: .5rem;
+  column-gap: 0.5rem;
 }
 
-.nav-left{
+.nav-left {
   display: flex;
   flex-direction: column;
-  row-gap: .5rem;
+  row-gap: 0.5rem;
 }
 
 .nav-left,
@@ -29,21 +29,21 @@
   text-decoration: none;
   color: rgb(223, 223, 223);
 }
-.menu{
+.menu {
   font-size: 25px;
   font-weight: blod;
 }
-.nav-left h3{
+.nav-left h3 {
   border-bottom: 1px solid #cecece;
   text-align: center;
   padding: 5px;
   color: red;
 }
-.nav-left h5{
+.nav-left h5 {
   display: none;
 }
 
-.nav-left p{
+.nav-left p {
   font-size: 12px;
 }
 
@@ -51,11 +51,11 @@
   display: none;
 }
 
-.nav-center{
+.nav-center {
   display: none;
 }
 
-.nav-center.active{
+.nav-center.active {
   display: block;
   position: absolute;
   left: -90px;
@@ -66,54 +66,54 @@
   padding: 10px;
 }
 
-.nav-center.active ul{
+.nav-center.active ul {
   list-style: none;
 }
 
-.menu:hover{
+.menu:hover {
   cursor: pointer;
 }
 
-.nav-center.active ul li{
+.nav-center.active ul li {
   line-height: 65px;
   width: 200px;
   border-bottom: 1px solid white;
 }
 
-.nav-center.active ul li:nth-child(1),.nav-center.active ul li:hover .item{
+.nav-center.active ul li:nth-child(1),
+.nav-center.active ul li:hover .item {
   color: red;
-  transition: .5s;
+  transition: 0.5s;
 }
-
 
 /* tablet menu */
 @media all and (min-width: 700px) {
-  .nav-left{
+  .nav-left {
     display: flex;
     flex-direction: row;
     /* row-gap: .5rem; */
   }
-  .nav-left h3{
+  .nav-left h3 {
     border: none;
   }
-  .nav-left h5{
-    display: block
+  .nav-left h5 {
+    display: block;
   }
-  .item:hover{
+  .item:hover {
     color: red;
   }
 }
 
 /* destop menu */
 @media all and (min-width: 900px) {
-  .nav-center.active{
+  .nav-center.active {
     display: none;
   }
   .nav-center,
   .search {
     display: block;
   }
-  ul{
+  ul {
     list-style: none;
     display: flex;
     align-items: center;

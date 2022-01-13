@@ -11,11 +11,14 @@ function MyList() {
   });
 
   return (
-    <div className="list-container">
+    <div className="list-container" style={{ height: "100vh" }}>
       <h1>My List</h1>
       <div className="all-list">
-        {showList.length === 0 ? <p>No movies or TV shows in your list!</p> : showList}
-        {/* {console.log(showList.length)} */}
+        {showList.length === 0 ? (
+          <p>No movies or TV shows in your list!</p>
+        ) : (
+          showList
+        )}
       </div>
     </div>
   );

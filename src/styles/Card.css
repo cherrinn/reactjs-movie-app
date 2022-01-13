@@ -66,29 +66,22 @@
   position: absolute;
 }
 .add-btn-container {
-  top: -7px;
-  right: 10px;
-}
+  top: -10px;
+  right: 13px;
+} 
 .add-btn-container button {
-  padding: 2px 3px;
-  border-radius: 50%;
   border: none;
+  background-color: rgb(0, 0, 0,0);
 }
 .remove-btn-container {
   top: -10px;
-  right: 10px;
+  right: 7px;
 }
-.remove-icon {
+.remove-icon,.add-icon {
   color: white;
   font-size: 20px;
 }
-.remove-icon:hover {
+.remove-icon:hover, .add-icon:hover {
   cursor: pointer;
   color: red;
-}
-
-.add-btn-container button:hover {
-  cursor: pointer;
-  color: red;
-  padding: 2px 3px;
 }

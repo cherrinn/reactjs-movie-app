@@ -41,7 +41,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="contain-all">
       <div className="container">
         <Navbar />
         <Route exact path="/">
@@ -57,7 +57,9 @@ function App() {
           <MyList />
         </Route>
       </div>
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }

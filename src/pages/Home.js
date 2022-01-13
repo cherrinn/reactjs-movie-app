@@ -43,34 +43,36 @@ function Home(props) {
 
   return (
     <div>
-      <Banner />
-      <div className="top-content-container">
-        <div className="top-btn">
-          <h2>TOP</h2>
-          <button
-            className={
-              selected == "movie" ? "btn-movies active btn" : "btn-movies btn"
-            }
-            onClick={() => setSelected("movie")}
-          >
-            Movies
-          </button>
-          <button
-            className={selected == "tv" ? "btn-tv active btn" : "btn-tv btn"}
-            onClick={() => setSelected("tv")}
-          >
-            TV Shows
-          </button>
+        <Banner />
+      <div className="nxt"> 
+        <div className="top-content-container">
+        <h2 style={{marginBottom:"20px"}}>TOP</h2>
+          <div className="top-btn">
+            <button
+              className={
+                selected == "movie" ? "btn-movies active btn" : "btn-movies btn"
+              }
+              onClick={() => setSelected("movie")}
+            >
+              Movies
+            </button>
+            <button
+              className={selected == "tv" ? "btn-tv active btn" : "btn-tv btn"}
+              onClick={() => setSelected("tv")}
+            >
+              TV Shows
+            </button>
+          </div>
+          <div className="top-contents">
+            {selected === "movie" ? showTopMovies : showTopTV}
+          </div>
+          <hr />
         </div>
-        <div className="top-contents">
-          {selected === "movie" ? showTopMovies : showTopTV}
-        </div>
-        <hr />
-      </div>
 
-      <div className="all-contents-container">
-        <h2>FANTASY</h2>
-        <div className="all-contents">{fantasyMovies}</div>
+        <div className="all-contents-container">
+          <h2>FANTASY</h2>
+          <div className="all-contents">{fantasyMovies}</div>
+        </div>
       </div>
     </div>
   );

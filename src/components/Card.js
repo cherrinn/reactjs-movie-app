@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../services/GlobalState";
 import { FiPlus, FiXCircle } from "react-icons/fi";
+import { IoMdAddCircle } from "react-icons/io";
 import "../styles/Card.css";
 
 function Card(props) {
@@ -17,7 +18,6 @@ function Card(props) {
 
   return (
     <div className="show">
-      {console.log(contents)}
       <div className={!(search || remove) ? "show-img zoom" : "show-img"}>
         <img
           key={contents.id}
@@ -42,12 +42,10 @@ function Card(props) {
       </div>
       <div className="add-btn-container">
         {search ? (
-          <button
+            <IoMdAddCircle 
+            className="add-icon"
             disabled={watchlisDisabled}
-            onClick={() => addMovieToWatchlist(contents)}
-          >
-            <FiPlus />
-          </button>
+            onClick={() => addMovieToWatchlist(contents)}/>
         ) : null}
       </div>
       <div className="remove-btn-container">
