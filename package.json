@@ -39,5 +39,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "![home](https://user-images.githubusercontent.com/85073127/120877479-ed544080-c5e0-11eb-82f6-490cff7c3fd7.png)",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cherrinn/reactjs-movie-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cherrinn/reactjs-movie-app/issues"
+  },
+  "homepage": "https://github.com/cherrinn/reactjs-movie-app#readme"
 }
